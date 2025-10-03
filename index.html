@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Emojis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .emoji-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid #e0e0e0;
+        }
+        .emoji-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            border-color: #667eea;
+        }
+        .emoji-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+        .emoji-name {
+            font-size: 0.9em;
+            color: #666;
+            word-break: break-all;
+            margin-top: 10px;
+        }
+        .emoji-char {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Galeria de Emojis</h1>
+        <p class="subtitle">Total de emojis: 41</p>
+        <div class="gallery">
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_1_1F5E3_FE0F.png" alt="🗣️">
+                <div class="emoji-char">🗣️</div>
+                <div class="emoji-name">emoji_1_1F5E3_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_2_26A1.png" alt="⚡">
+                <div class="emoji-char">⚡</div>
+                <div class="emoji-name">emoji_2_26A1.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_3_1F54A_FE0F.png" alt="🕊️">
+                <div class="emoji-char">🕊️</div>
+                <div class="emoji-name">emoji_3_1F54A_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_4_271D_FE0F.png" alt="✝️">
+                <div class="emoji-char">✝️</div>
+                <div class="emoji-name">emoji_4_271D_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_5_2705.png" alt="✅">
+                <div class="emoji-char">✅</div>
+                <div class="emoji-name">emoji_5_2705.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_6_1F5E1_FE0F.png" alt="🗡️">
+                <div class="emoji-char">🗡️</div>
+                <div class="emoji-name">emoji_6_1F5E1_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_7_1F3BA.png" alt="🎺">
+                <div class="emoji-char">🎺</div>
+                <div class="emoji-name">emoji_7_1F3BA.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_8_1F9EC.png" alt="🧬">
+                <div class="emoji-char">🧬</div>
+                <div class="emoji-name">emoji_8_1F9EC.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_9_1F64F.png" alt="🙏">
+                <div class="emoji-char">🙏</div>
+                <div class="emoji-name">emoji_9_1F64F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_10_1F4D6.png" alt="📖">
+                <div class="emoji-char">📖</div>
+                <div class="emoji-name">emoji_10_1F4D6.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_11_1F6E4_FE0F.png" alt="🛤️">
+                <div class="emoji-char">🛤️</div>
+                <div class="emoji-name">emoji_11_1F6E4_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_12_2696_FE0F.png" alt="⚖️">
+                <div class="emoji-char">⚖️</div>
+                <div class="emoji-name">emoji_12_2696_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_13_1F932.png" alt="🤲">
+                <div class="emoji-char">🤲</div>
+                <div class="emoji-name">emoji_13_1F932.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_14_1F3D7_FE0F.png" alt="🏗️">
+                <div class="emoji-char">🏗️</div>
+                <div class="emoji-name">emoji_14_1F3D7_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_15_1F331.png" alt="🌱">
+                <div class="emoji-char">🌱</div>
+                <div class="emoji-name">emoji_15_1F331.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_16_2728.png" alt="✨">
+                <div class="emoji-char">✨</div>
+                <div class="emoji-name">emoji_16_2728.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_17_1F445.png" alt="👅">
+                <div class="emoji-char">👅</div>
+                <div class="emoji-name">emoji_17_1F445.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_18_1F4A1.png" alt="💡">
+                <div class="emoji-char">💡</div>
+                <div class="emoji-name">emoji_18_1F4A1.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_19_1F451.png" alt="👑">
+                <div class="emoji-char">👑</div>
+                <div class="emoji-name">emoji_19_1F451.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_20_1F30C.png" alt="🌌">
+                <div class="emoji-char">🌌</div>
+                <div class="emoji-name">emoji_20_1F30C.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_21_1F48E.png" alt="💎">
+                <div class="emoji-char">💎</div>
+                <div class="emoji-name">emoji_21_1F48E.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_22_1F34E.png" alt="🍎">
+                <div class="emoji-char">🍎</div>
+                <div class="emoji-name">emoji_22_1F34E.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_23_2764_FE0F.png" alt="❤️">
+                <div class="emoji-char">❤️</div>
+                <div class="emoji-name">emoji_23_2764_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_24_1F4AC.png" alt="💬">
+                <div class="emoji-char">💬</div>
+                <div class="emoji-name">emoji_24_1F4AC.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_25_1F3AD.png" alt="🎭">
+                <div class="emoji-char">🎭</div>
+                <div class="emoji-name">emoji_25_1F3AD.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_26_1F98B.png" alt="🦋">
+                <div class="emoji-char">🦋</div>
+                <div class="emoji-name">emoji_26_1F98B.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_27_1F525.png" alt="🔥">
+                <div class="emoji-char">🔥</div>
+                <div class="emoji-name">emoji_27_1F525.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_28_267E_FE0F.png" alt="♾️">
+                <div class="emoji-char">♾️</div>
+                <div class="emoji-name">emoji_28_267E_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_29_1F33E.png" alt="🌾">
+                <div class="emoji-char">🌾</div>
+                <div class="emoji-name">emoji_29_1F33E.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_30_1F4A5.png" alt="💥">
+                <div class="emoji-char">💥</div>
+                <div class="emoji-name">emoji_30_1F4A5.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_31_1F464.png" alt="👤">
+                <div class="emoji-char">👤</div>
+                <div class="emoji-name">emoji_31_1F464.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_32_1F3AF.png" alt="🎯">
+                <div class="emoji-char">🎯</div>
+                <div class="emoji-name">emoji_32_1F3AF.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_33_1F91D.png" alt="🤝">
+                <div class="emoji-char">🤝</div>
+                <div class="emoji-name">emoji_33_1F91D.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_34_1F305.png" alt="🌅">
+                <div class="emoji-char">🌅</div>
+                <div class="emoji-name">emoji_34_1F305.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_35_1F4A3.png" alt="💣">
+                <div class="emoji-char">💣</div>
+                <div class="emoji-name">emoji_35_1F4A3.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_36_1F64C.png" alt="🙌">
+                <div class="emoji-char">🙌</div>
+                <div class="emoji-name">emoji_36_1F64C.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_37_2620_FE0F.png" alt="☠️">
+                <div class="emoji-char">☠️</div>
+                <div class="emoji-name">emoji_37_2620_FE0F.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_38_1F4CB.png" alt="📋">
+                <div class="emoji-char">📋</div>
+                <div class="emoji-name">emoji_38_1F4CB.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_39_1F9ED.png" alt="🧭">
+                <div class="emoji-char">🧭</div>
+                <div class="emoji-name">emoji_39_1F9ED.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_40_26EA.png" alt="⛪">
+                <div class="emoji-char">⛪</div>
+                <div class="emoji-name">emoji_40_26EA.png</div>
+            </div>
+            <div class="emoji-card">
+                <img src="emojis_png/emoji_41_1F3E0.png" alt="🏠">
+                <div class="emoji-char">🏠</div>
+                <div class="emoji-name">emoji_41_1F3E0.png</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
